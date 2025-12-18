@@ -8,7 +8,7 @@
     "python",
     "pyrogram"
   ],
-    "buildpacks": [{
+  "buildpacks": [{
     "url": "heroku/python"
   }],
   "formation": {
@@ -17,15 +17,7 @@
       "size": "free"
     }
   },
-  "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-  "repository": "https://github.com/StarkBotsIndustries/ForceSubscribeBot",
+  "repository": "https://github.com/StarkBotsIndustries/DeleteEventsBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
